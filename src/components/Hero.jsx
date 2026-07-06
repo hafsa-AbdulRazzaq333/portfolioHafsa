@@ -78,10 +78,10 @@ function Hero() {
               Contact Me
             </ButtonLink>
 
-            {/* <ButtonLink href="/Hafsa_Resume.txt" variant="ghost" download>
+            <ButtonLink href="/Hafsa_CV.pdf" variant="ghost" download>
               <Download size={17} />
-              Download Resume
-            </ButtonLink> */}
+              Download CV
+            </ButtonLink> 
           </div>
         </motion.div>
       </div>
