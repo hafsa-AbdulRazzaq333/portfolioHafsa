@@ -5,10 +5,24 @@ import SectionTitle from "./SectionTitle";
 function Projects() {
   const projects = [
     {
+      title: "FurniSense AI",
+      description:
+        "An AI-powered furniture and interior design platform that transforms user preferences into premium, photorealistic furniture designs.",
+      tags: [
+        "React js",
+        "API Integration",
+        "Prompt Engineering",
+        "AI Image Generation",
+      ],
+      github: "https://github.com/hafsa-AbdulRazzaq333/FurniSense-AI.git",
+      demo: "https://furni-sense-ai.vercel.app/",
+      image: "./images/furnisense.png",
+    },
+    {
       title: "HealthGuard AI",
       description:
         "A machine learning-powered diabetes prediction platform with PDF report generation and a polished clinical feel.",
-      tags: ["React", "Python", "ML", "PDF Reports"],
+      tags: ["React js", "Python", "Machine Learning", "PDF Reports"],
       github:
         "https://github.com/hafsa-AbdulRazzaq333/HealthGuard-AI-Backend.git",
       demo: "https://health-guard-ai-a-diabetes-predicto.vercel.app/",
