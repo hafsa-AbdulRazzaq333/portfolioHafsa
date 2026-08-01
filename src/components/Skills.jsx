@@ -40,7 +40,7 @@ function Skills() {
     {
       title: "Tools",
       icon: <Wrench size={18} />,
-      items: ["Git", "GitHub", "VS Code"],
+      items: ["Git", "GitHub", "VS Code","Trae AI", "Github Copilot"],
     },
   ];
 
