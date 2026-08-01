@@ -35,6 +35,7 @@ function Footer() {
               "About",
               "Skills",
               "Projects",
+              "Certifications",
               "Education",
               "Contact",
             ].map((item) => (

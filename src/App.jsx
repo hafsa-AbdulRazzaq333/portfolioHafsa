@@ -15,6 +15,7 @@ import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
+import Certifications from "./components/Certifications.jsx";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -49,6 +50,7 @@ function App() {
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
+    { href: "#certifications", label: "Certifications" },
     { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
   ];
@@ -164,6 +166,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Certifications/>
         <Education />
         <Contact />
       </main>

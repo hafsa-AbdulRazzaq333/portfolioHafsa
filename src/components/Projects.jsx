@@ -22,7 +22,14 @@ function Projects() {
       title: "HealthGuard AI",
       description:
         "A machine learning-powered diabetes prediction platform with PDF report generation and a polished clinical feel.",
-      tags: ["React js", "Python", "Machine Learning", "PDF Reports"],
+      tags: [
+        "React js",
+        "Python",
+        "SQLite",
+        "Flask",
+        "Machine Learning",
+        "PDF Reports",
+      ],
       github:
         "https://github.com/hafsa-AbdulRazzaq333/HealthGuard-AI-Backend.git",
       demo: "https://health-guard-ai-a-diabetes-predicto.vercel.app/",
@@ -51,7 +58,7 @@ function Projects() {
       title: "Weather Application",
       description:
         "A responsive weather forecasting experience with API integration and dynamic visual updates.",
-      tags: ["Streamlit", "Python", "API", "Responsive"],
+      tags: ["Streamlit", "Python", "API", "Responsiveness", "UI/UX"],
       github:
         "https://github.com/hafsa-AbdulRazzaq333/Weather-app-with-streamlit-and-python.git",
       demo: "https://hafsa-abdulrazzaq333-weather-app-with-streamlit-and--app-q6oukt.streamlit.app/",
@@ -61,7 +68,7 @@ function Projects() {
       title: "Quran Player",
       description:
         "An interactive audio player designed for calm, intuitive playback and modern accessibility standards.",
-      tags: ["HTML", "CSS", "JavaScript", "Audio", "UX"],
+      tags: ["HTML", "CSS", "JavaScript", "Audio", "UI/UX"],
       github: "https://github.com/hafsa-AbdulRazzaq333/QuranPlayer.git",
       demo: "https://quran-player-9vft.vercel.app/",
       image: "./images/quran-player.png",
