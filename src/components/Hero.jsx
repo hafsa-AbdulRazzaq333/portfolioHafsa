@@ -81,7 +81,7 @@ function Hero() {
             <ButtonLink href="/Hafsa_CV.pdf" variant="ghost" download>
               <Download size={17} />
               Download CV
-            </ButtonLink> 
+            </ButtonLink>
           </div>
         </motion.div>
       </div>
