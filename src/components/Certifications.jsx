@@ -10,8 +10,9 @@ function Certifications() {
       year: "2026",
       image: "/images/google-ai.png",
       link: "https://www.credly.com/earner/earned/badge/d71344e6-e6bd-4005-90f4-04b18f0b8f87",
+      iconColor: "from-blue-500 to-cyan-500",
       description:
-        "Built a strong foundation in Artificial Intelligence by exploring core AI concepts, responsible AI practices, and practical applications across real-world scenarios.",
+        "Built a strong foundation in Artificial Intelligence by exploring core AI concepts and responsible AI practices.",
     },
     {
       title: "Google AI Essentials",
@@ -19,8 +20,9 @@ function Certifications() {
       year: "2026",
       image: "/images/google-ai-essentials.jpeg",
       link: "https://www.credly.com/badges/b8481ad2-8c05-4c9e-a64d-e6cb6e593dde/print",
+      iconColor: "from-violet-500 to-fuchsia-500",
       description:
-        "Gained practical knowledge of generative AI, prompt engineering, responsible AI, and real-world AI applications for productivity and problem-solving.",
+        "Gained hands-on experience with generative AI, prompt engineering and AI-powered problem solving.",
     },
     {
       title: "Google Prompting Essentials",
@@ -28,8 +30,9 @@ function Certifications() {
       year: "2026",
       image: "/images/google-prompting-essentials.png",
       link: "https://www.credly.com/earner/earned/badge/786e7516-5095-43b2-94d0-d34ac41ce311",
+      iconColor: "from-amber-500 to-orange-500",
       description:
-        "Learned professional prompting techniques, prompt refinement strategies, structured AI communication, and workflow optimization for high-quality AI-assisted results.",
+        "Learned advanced prompting techniques, prompt optimization, structured AI communication strategies to get accurate results.",
     },
   ];
 
@@ -48,98 +51,69 @@ function Certifications() {
         {/* Cards will go here */}
 
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="mx-auto mt-20 max-w-6xl space-y-10"
+          className="mx-auto mt-20 max-w-7xl"
         >
-          {certificates.map((certificate, index) => (
-            <motion.article
-              key={certificate.title}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.12 }}
-              whileHover={{ y: -6 }}
-              className="group relative overflow-hidden rounded-[34px] border border-border bg-card-bg/80 backdrop-blur-2xl transition-all duration-500 hover:border-primary/30 hover:shadow-[0_30px_70px_-40px_rgba(139,92,246,.35)]"
-            >
-              {/* Glow */}
-              <div className="absolute -left-16 -top-16 h-52 w-52 rounded-full bg-primary/10 blur-[90px] opacity-0 transition duration-500 group-hover:opacity-100" />
+          <div className="grid gap-6 lg:grid-cols-3 ">
+            {certificates.map((certificate, index) => (
+              <motion.div
+                key={certificate.title}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.12 }}
+                whileHover={{ y: -8 }}
+                className="group relative py-8"
+              >
+                {/* Left Accent */}
+                <div className="absolute left-0 top-0 h-full w-[3px] rounded-full bg-gradient-to-b from-primary via-secondary to-cyan-400 transition-all duration-500 group-hover:w-[6px]" />
 
-              {/* Top Accent */}
-              <div className="absolute left-0 top-0 h-[3px] w-0 bg-gradient-to-r from-primary via-secondary to-primary transition-all duration-700 group-hover:w-full" />
+                <div className="pl-7">
+                  <div className="flex items-center justify-between">
+                    <div
+                      className={`flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br ${certificate.iconColor} shadow-lg`}
+                    >
+                      <Award size={24} className="text-white" />
+                    </div>
 
-              <div className="grid gap-8 p-7 lg:grid-cols-[280px_1fr] lg:p-8">
-                {/* Certificate Preview */}
-                <motion.div
-                  whileHover={{ scale: 1.03 }}
-                  className="relative mx-auto w-full max-w-[280px]"
-                >
-                  <div className="rounded-[24px] bg-white p-3 shadow-xl">
-                    <img
-                      src={certificate.image}
-                      alt={certificate.title}
-                      className="w-full rounded-2xl object-contain"
-                    />
-                  </div>
-
-                  <div className="absolute -bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-full border border-primary/20 bg-bg-primary px-4 py-2 shadow-lg">
-                    <Award size={15} className="text-primary" />
-                    <span className="text-xs font-semibold text-text-primary">
-                      Verified
-                    </span>
-                  </div>
-                </motion.div>
-
-                {/* Content */}
-                <div className="flex flex-col justify-center">
-                  <div className="flex flex-wrap items-center gap-3">
-                    <span className="rounded-full bg-primary/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-primary">
-                      {certificate.issuer}
-                    </span>
-
-                    <span className="rounded-full border border-border px-4 py-2 text-xs font-semibold text-text-muted">
+                    <span className="text-sm font-semibold text-text-muted">
                       {certificate.year}
                     </span>
                   </div>
 
-                  <h3 className="mt-6 text-3xl font-black leading-tight text-text-primary lg:text-4xl">
+                  <h3 className="mt-6 text-2xl font-bold leading-snug text-text-primary">
                     {certificate.title}
                   </h3>
 
-                  <p className="mt-5 max-w-2xl leading-8 text-text-secondary">
-                    {certificate.description}
+                  <p className="mt-2 text-sm uppercase tracking-[0.28em] text-primary">
+                    {certificate.issuer}
                   </p>
 
-                  <div className="mt-8 flex items-center justify-between border-t border-border pt-6">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.25em] text-text-muted">
-                        Certification
-                      </p>
-
-                      <p className="mt-2 font-semibold text-text-primary">
-                        Industry Recognized Credential
-                      </p>
-                    </div>
+                  <div className="mt-8 flex items-center justify-between">
+                    <span className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-500">
+                      ✓ Verified
+                    </span>
 
                     <a
                       href={certificate.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105"
+                      className="group/link inline-flex items-center gap-2 font-semibold text-primary"
                     >
-                      View Credential
+                      Credential
                       <ExternalLink
-                        size={17}
-                        className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+                        size={16}
+                        className="transition group-hover/link:translate-x-1 group-hover/link:-translate-y-1"
                       />
                     </a>
                   </div>
                 </div>
-              </div>
-            </motion.article>
-          ))}
+              </motion.div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>
