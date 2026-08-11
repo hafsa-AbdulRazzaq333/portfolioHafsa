@@ -5,11 +5,10 @@ import SectionTitle from "./SectionTitle";
 function Certifications() {
   const certificates = [
     {
-      title: "Google AI Fundamentals",
+      title: "Google AI",
       issuer: "Google",
       year: "2026",
-      image: "/images/google-ai.png",
-      link: "https://www.credly.com/earner/earned/badge/d71344e6-e6bd-4005-90f4-04b18f0b8f87",
+      link: "https://www.coursera.org/account/accomplishments/specialization/PBNONBJPS2KO",
       iconColor: "from-blue-500 to-cyan-500",
       description:
         "Built a strong foundation in Artificial Intelligence by exploring core AI concepts and responsible AI practices.",
@@ -18,8 +17,7 @@ function Certifications() {
       title: "Google AI Essentials",
       issuer: "Google",
       year: "2026",
-      image: "/images/google-ai-essentials.jpeg",
-      link: "https://www.credly.com/badges/b8481ad2-8c05-4c9e-a64d-e6cb6e593dde/print",
+      link: "https://www.coursera.org/account/accomplishments/specialization/RURQ75076BIK",
       iconColor: "from-violet-500 to-fuchsia-500",
       description:
         "Gained hands-on experience with generative AI, prompt engineering and AI-powered problem solving.",
@@ -28,8 +26,7 @@ function Certifications() {
       title: "Google Prompting Essentials",
       issuer: "Google",
       year: "2026",
-      image: "/images/google-prompting-essentials.png",
-      link: "https://www.credly.com/earner/earned/badge/786e7516-5095-43b2-94d0-d34ac41ce311",
+      link: "https://www.coursera.org/account/accomplishments/specialization/R321JM6U2CIA",
       iconColor: "from-amber-500 to-orange-500",
       description:
         "Learned advanced prompting techniques, prompt optimization, structured AI communication strategies to get accurate results.",

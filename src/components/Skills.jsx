@@ -25,17 +25,17 @@ function Skills() {
     {
       title: "Backend",
       icon: <Rocket size={18} />,
-      items: ["Python", "Flask"],
+      items: ["Python", "Flask", "Node.js", "Express.js", "RESTful APIs"],
     },
     {
       title: "Database",
       icon: <Database size={18} />,
-      items: ["SQLite"],
+      items: ["MongoDB", "SQLite"],
     },
     {
       title: "Deployment",
       icon: <Globe size={18} />,
-      items: ["Vercel", "Render"],
+      items: ["Vercel", "Render"," Streamlit Cloud Community","MongoDB Atlas"],
     },
     {
       title: "Tools",
@@ -47,6 +47,7 @@ function Skills() {
         "Trae AI",
         "ChatGPT",
         "Github Copilot",
+        "Cursor AI",
       ],
     },
   ];

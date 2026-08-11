@@ -5,6 +5,15 @@ import SectionTitle from "./SectionTitle";
 function Projects() {
   const projects = [
     {
+      title: "DailyFlow",
+      description:
+        "A modern MERN stack productivity workspace designed to help users organize their daily workflow through structured categories, task management, priorities, and intuitive progress tracking.",
+      tags: ["MongoDB", "Express.js", "React.js", "Node.js", "UI/UX"],
+      github: "https://github.com/hafsa-AbdulRazzaq333/DailyFlow-Frontend.git",
+      demo: "https://daily-flow-frontend-fawn.vercel.app",
+      image: "./images/dailyflow.png",
+    },
+    {
       title: "FurniSense AI",
       description:
         "An AI-powered furniture and interior design platform that transforms user preferences into premium, photorealistic furniture designs.",
@@ -34,15 +43,6 @@ function Projects() {
         "https://github.com/hafsa-AbdulRazzaq333/HealthGuard-AI-Backend.git",
       demo: "https://health-guard-ai-a-diabetes-predicto.vercel.app/",
       image: "./images/healthguard.png",
-    },
-    {
-      title: "Full Stack Todo Application",
-      description:
-        "A task management app built with React, Flask, and SQLite for a clean and practical workflow experience.",
-      tags: ["React", "Flask", "SQLite", "CRUD"],
-      github: "https://github.com/hafsa-AbdulRazzaq333/TodoApp.git",
-      demo: "https://todo-app-eta-ten-25.vercel.app/",
-      image: "./images/todo-list.png",
     },
     {
       title: "Translator & Summarizer",

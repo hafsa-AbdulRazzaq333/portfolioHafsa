@@ -33,7 +33,7 @@ function Education() {
       institution: "Punjab College",
       location: "Wazirabad, Pakistan",
       duration: "2021 – 2023",
-      status: "Pre-Engineering / ICS",
+      status: "Intermediate of Computer Sciences",
       icon: <School size={20} />,
       grade: "A+",
       tags: [
