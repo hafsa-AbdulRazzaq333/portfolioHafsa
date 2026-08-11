@@ -84,7 +84,7 @@ function Skills() {
               {[
                 "Frontend Development",
                 "Backend Development",
-                "Machine Learning",
+                "AI & Machine Learning",
                 "Deployment & Tools",
               ].map((step, index) => (
                 <motion.div

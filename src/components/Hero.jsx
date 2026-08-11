@@ -5,9 +5,9 @@ import ButtonLink from "./ButtonLink";
 
 function Hero() {
   const phrases = [
-    "Frontend Developer.",
-    "Full-Stack Learner.",
-    "Modern Builder.",
+    "Full-Stack Developer.",
+    "MERN Stack Developer.",
+    "AI-Powered Builder.",
   ];
 
   const [displayedText, setDisplayedText] = useState("");
@@ -78,7 +78,7 @@ function Hero() {
               Contact Me
             </ButtonLink>
 
-            <ButtonLink href="/Hafsa_CV.pdf" variant="ghost" download>
+            <ButtonLink href="/Hafsa_Abdul_Razaq_CV.pdf" variant="ghost" download>
               <Download size={17} />
               Download CV
             </ButtonLink>

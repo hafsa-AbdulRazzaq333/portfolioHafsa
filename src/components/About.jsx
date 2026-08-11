@@ -47,7 +47,7 @@ function About() {
               {[
                 "Started Web Development",
                 "Mastered React",
-                "Built Full-Stack Projects",
+                "Built Full-Stack and MERN Stack Projects",
                 "Exploring Artificial Intelligence",
               ].map((step, index) => (
                 <motion.div
@@ -88,7 +88,6 @@ function About() {
                 {/* Left Side */}
 
                 <div>
-
                   <h3 className="mt-7 text-5xl font-black leading-[1.05] tracking-tight text-text-primary">
                     Building
                     <br />
@@ -100,11 +99,13 @@ function About() {
                   </h3>
 
                   <p className="mt-8 max-w-xl text-[16px] leading-9 text-text-muted">
-                    I started with simple web pages and gradually progressed
-                    into developing modern React applications, Flask backends,
-                    and AI-powered solutions. Today, my focus is building
-                    products that are clean, scalable, and genuinely enjoyable
-                    to use.
+                    I started by building simple web experiences and gradually
+                    evolved into developing modern full-stack applications with
+                    React and the MERN stack. Along the way, I explored AI
+                    integration, backend development, and real-world product
+                    building. Today, I focus on creating scalable, thoughtful
+                    products that combine clean interfaces, solid functionality,
+                    and meaningful user experiences.
                   </p>
                 </div>
 
@@ -120,7 +121,7 @@ function About() {
                     {
                       number: "02",
                       title: "Backend",
-                      text: "Flask APIs and practical full-stack architecture.",
+                      text: "MERN stack and full-stack architecture.",
                     },
                     {
                       number: "03",
