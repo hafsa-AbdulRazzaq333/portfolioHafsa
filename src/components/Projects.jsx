@@ -45,7 +45,7 @@ function Projects() {
       image: "./images/healthguard.png",
     },
     {
-      title: "Translator & Summarizer",
+      title: "LingoFlow AI",
       description:
         "A multilingual web app focused on fast text translation and summaries with a smooth, accessible interface.",
       tags: ["Streamlit", "Python", "API", "UI/UX"],
@@ -53,26 +53,7 @@ function Projects() {
         "https://github.com/hafsa-AbdulRazzaq333/Language-Summarizer-Translator.git",
       demo: "https://language-summarizer-translator-gtxfuo9db9zfjaeir2unra.streamlit.app/",
       image: "./images/translator.png",
-    },
-    {
-      title: "Weather Application",
-      description:
-        "A responsive weather forecasting experience with API integration and dynamic visual updates.",
-      tags: ["Streamlit", "Python", "API", "Responsiveness", "UI/UX"],
-      github:
-        "https://github.com/hafsa-AbdulRazzaq333/Weather-app-with-streamlit-and-python.git",
-      demo: "https://hafsa-abdulrazzaq333-weather-app-with-streamlit-and--app-q6oukt.streamlit.app/",
-      image: "./images/weather.png",
-    },
-    {
-      title: "Quran Player",
-      description:
-        "An interactive audio player designed for calm, intuitive playback and modern accessibility standards.",
-      tags: ["HTML", "CSS", "JavaScript", "Audio", "UI/UX"],
-      github: "https://github.com/hafsa-AbdulRazzaq333/QuranPlayer.git",
-      demo: "https://quran-player-9vft.vercel.app/",
-      image: "./images/quran-player.png",
-    },
+    }
   ];
 
   return (

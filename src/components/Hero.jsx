@@ -6,8 +6,8 @@ import ButtonLink from "./ButtonLink";
 function Hero() {
   const phrases = [
     "Full-Stack Developer.",
-    "MERN Stack Developer.",
-    "AI-Powered Builder.",
+    "MERN-Stack Builder.",
+    "AI-Driven Developer.",
   ];
 
   const [displayedText, setDisplayedText] = useState("");

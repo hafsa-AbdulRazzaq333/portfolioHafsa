@@ -56,11 +56,11 @@ function App() {
   ];
 
   const quickStats = [
-    { label: "Projects", value: "5+", icon: <BriefcaseBusiness size={18} /> },
-    { label: "Focus", value: "Frontend", icon: <CircleUserRound size={18} /> },
+    { label: "Projects", value: "3+", icon: <BriefcaseBusiness size={18} /> },
+    { label: "Focus", value: "MERN Stack & Full Stack", icon: <CircleUserRound size={18} /> },
     {
       label: "Learning",
-      value: "Full Stack",
+      value: "AI Powered Development",
       icon: <GraduationCap size={18} />,
     },
     { label: "Reach", value: "Open to work", icon: <Mail size={18} /> },
